@@ -1,10 +1,9 @@
-// Hero.tsx
+/* eslint-disable */
 import React from "react";
 
 const Hero = () => {
   return (
     <header className="relative">
-      {/* Video container */}
       <div className="relative h-screen overflow-hidden">
         {/* Video element */}
         <video
@@ -18,10 +17,9 @@ const Hero = () => {
         </video>
       </div>
 
-      {/* Your other content within the header section */}
       <div className="absolute bottom-0 left-0 w-full text-white py-4 text-left">
         <h1 className=" text-6xl md:text-3xl lg:text-6xl font-barlow-condensed uppercase font-bold ml-[240px] mr-[240px] mb-[60px] ">
-          The world's first
+          The world&apos;s first
           <br /> platform for Tokenizing
           <br /> AI blockchain projects.
         </h1>

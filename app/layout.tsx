@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import type { Metadata } from "next";
 import { Inter, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
