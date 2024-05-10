@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { Inter, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "./components/Navigation/ResponsiveNav";
-import HomePage from "./pages/HomePage";
+import HomePage from "./components/Home";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-black  h-screen w-scree">
         <ResponsiveNav />
-        <HomePage />
+        {children}
       </body>
     </html>
   );
