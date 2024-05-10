@@ -3,8 +3,8 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="flex max-w-screen-2xl mx-auto">
-      <header className="bg-black ml-[240px] mt-[126px] w-[700px] h-[708px] w-[750px]">
+    <section className="flex flex-cols-2 h-screenl mx-auto items-center gap-[20px]">
+      <header className="bg-black ml-[200px] mt-[100px] w-[90%]">
         <h2 className="text-[#FFFFFF] uppercase font-barlow-condensed font-bold text-5xl">
           creon pass nft
         </h2>
@@ -30,7 +30,13 @@ const Features = () => {
           Buy Creon Pass
         </button>
       </header>
-      <video className="h-[800px] w-[800px]" autoPlay loop muted playsInline>
+      <video
+        className="ml-[40px] mt-[100px] w-[45%] h-[45%] bg-blue-300 mb-[80px]"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
         <source src="/videos/nft-video.mp4" type="video/mp4" />
       </video>
     </section>

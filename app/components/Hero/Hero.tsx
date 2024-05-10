@@ -5,7 +5,6 @@ const Hero = () => {
   return (
     <header className="relative">
       <div className="relative h-screen overflow-hidden">
-        {/* Video element */}
         <video
           className="w-full h-full object-cover mt-0"
           autoPlay
@@ -18,7 +17,7 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-0 left-0 w-full text-white py-4 text-left">
-        <h1 className=" text-6xl md:text-3xl lg:text-6xl font-barlow-condensed uppercase font-bold ml-[240px] mr-[240px] mb-[60px] ">
+        <h1 className=" text-6xl md:text-3xl lg:text-6xl font-barlow-condensed uppercase font-bold ml-[240px] mr-[240px] mb-[60px] sm:text-[5px] ">
           The world&apos;s first
           <br /> platform for Tokenizing
           <br /> AI blockchain projects.
