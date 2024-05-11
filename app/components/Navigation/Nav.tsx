@@ -13,7 +13,7 @@ const Nav = ({ openNav }: Props) => {
     <nav className="absolute top-30 left-[50px] right-[50px] p-0 mt-[30px] flex items-center justify-between z-50">
       <Image src={Logo} alt="Logo" />
       <div className="flex items-center space-x-6">
-        <ul className="flex items-center space-x-6">
+        <ul className="flex items-center space-x-6 ">
           <li className="text-white hover:text-blue-500 text-[18px]">
             Creon Pass
           </li>
