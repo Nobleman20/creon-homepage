@@ -11,7 +11,7 @@ const About = () => {
         AI Innovation & Decentralization
       </h2>
       <div className="flex items-center ml-[240px] justify-center flex-cols-2 gap-[30px] mt-[60px] ml-[240px]">
-        <video className=" w-[800px]" autoPlay loop playsInline>
+        <video className=" w-[800px]" controls playsInline>
           <source src="/videos/creon-logo.mp4" type="video/mp4" />
         </video>
         <div className="text-white mr-[120px]">
