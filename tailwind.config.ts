@@ -1,3 +1,5 @@
+// tailwind.config.js
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -27,6 +29,10 @@ const config: Config = {
         xl: "1.25rem", // 20px
         "2xl": "1.5rem", // 24px
         "3xl": "1.875rem", // 30px
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        monument: ["Monument Extended", "sans-serif"],
       },
     },
   },

@@ -4,7 +4,6 @@ import type { Metadata } from "next";
 import { Inter, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "./components/Navigation/ResponsiveNav";
-import HomePage from "./components/Home";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -4,11 +4,11 @@ import React from "react";
 const Features = () => {
   return (
     <section className="flex flex-cols-2 h-screenl mx-auto items-center gap-[20px]">
-      <header className="bg-black ml-[200px] mt-[100px] w-[90%]">
-        <h2 className="text-[#FFFFFF] uppercase font-barlow-condensed font-bold text-5xl">
+      <header className="bg-black ml-[240px] mt-[100px] w-[700px] h-[708px]">
+        <h2 className="text-[#FFFFFF] uppercase font-monument text-[68px] leading-[75px]">
           creon pass nft
         </h2>
-        <p className="text-blue-500 mt-[71px] mb-[40px]">
+        <p className="text-blue-500 mt-[71px] mb-[40px] w-[650px]">
           The Creon NFT pass unlocks access to AI projects, the Creon launchpad,
           and a ticket to generate passive income through AI-driven tools
         </p>
@@ -31,7 +31,7 @@ const Features = () => {
         </button>
       </header>
       <video
-        className="ml-[40px] mt-[100px] w-[45%] h-[45%] bg-blue-300 mb-[80px]"
+        className="ml-[40px] mt-[100px] w-[750px] h-[750px] bg-blue-300 mb-[80px]"
         autoPlay
         loop
         muted

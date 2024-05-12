@@ -2,6 +2,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url(https://db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended+Bold); */
+
+/* globals.css */
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url("https://db.onlinewebfonts.com/t/440b48c0e71d1803a24ba06df2ae32bf.eot");
+  src: url("https://db.onlinewebfonts.com/t/440b48c0e71d1803a24ba06df2ae32bf.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/440b48c0e71d1803a24ba06df2ae32bf.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/440b48c0e71d1803a24ba06df2ae32bf.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/440b48c0e71d1803a24ba06df2ae32bf.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/440b48c0e71d1803a24ba06df2ae32bf.svg#Monument Extended")
+      format("svg");
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
