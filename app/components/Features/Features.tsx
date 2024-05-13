@@ -8,7 +8,7 @@ const Features = () => {
         <h2 className="text-[#FFFFFF] uppercase font-monument text-[68px] leading-[75px]">
           creon pass nft
         </h2>
-        <p className="text-blue-500 mt-[71px] mb-[40px] w-[650px]">
+        <p className="text-blue-500 mt-[71px] mb-[40px] w-[650px] text-[22px]">
           The Creon NFT pass unlocks access to AI projects, the Creon launchpad,
           and a ticket to generate passive income through AI-driven tools
         </p>
@@ -26,7 +26,7 @@ const Features = () => {
             Revenue share distribution from Creon built AI projects
           </li>
         </ul>
-        <button className="text-white bg-[#3D8BFF] w-full mt-[30px] h-[40px]">
+        <button className="text-white bg-[#3D8BFF] w-[453px] mt-[30px] h-[40px]">
           Buy Creon Pass
         </button>
       </header>

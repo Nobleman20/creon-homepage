@@ -11,7 +11,7 @@ interface Props {
 
 const Nav = ({ openNav }: Props) => {
   return (
-    <nav className="absolute top-30 left-[50px] right-[50px] mt-[33px] flex items-center justify-between z-50 ml-[50px]">
+    <nav className="absolute top-30 left-[50px] right-[50px] mt-[33px] flex items-center justify-between z-50 ml-[50px] font-satoshi">
       <Image src={Logo} alt="Logo" />
       <div className="flex items-center space-x-6">
         <ul className="flex items-center space-x-6 text-[18px]">

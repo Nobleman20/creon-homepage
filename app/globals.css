@@ -21,6 +21,21 @@
       format("svg");
 }
 
+@font-face {
+  font-family: "Satoshi Black";
+  src: url("https://db.onlinewebfonts.com/t/f12126e8a8e529e8195c7357dd5ad0c4.eot");
+  src: url("https://db.onlinewebfonts.com/t/f12126e8a8e529e8195c7357dd5ad0c4.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f12126e8a8e529e8195c7357dd5ad0c4.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f12126e8a8e529e8195c7357dd5ad0c4.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/f12126e8a8e529e8195c7357dd5ad0c4.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f12126e8a8e529e8195c7357dd5ad0c4.svg#Satoshi Black")
+      format("svg");
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

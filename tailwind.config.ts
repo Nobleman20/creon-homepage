@@ -33,6 +33,7 @@ const config: Config = {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
         monument: ["Monument Extended", "sans-serif"],
+        satoshi: ["Satoshi Black"],
       },
     },
   },
