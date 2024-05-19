@@ -3,12 +3,12 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="mx-auto items-center w-screen h-screen ">
+    <section className="mx-auto items-center w-screen h-screen mb-[50px]">
       <header className=" m-[24px] w-[90%] items-center">
         <h2 className="text-[#FFFFFF] uppercase font-monument text-[38px] leading-[40px] mb-[10px]">
           creon pass nft
         </h2>
-        <p className="text-blue-500 mt-[2px] mb-[40px] w-[90%] text-[20px] leading-[20px]">
+        <p className="text-blue-500 mt-[2px] mb-[40px] w-[90%] text-[20px] leading-[25px]">
           The Creon NFT pass unlocks access to AI projects, the Creon launchpad,
           and a ticket to generate passive income through AI-driven tools
         </p>

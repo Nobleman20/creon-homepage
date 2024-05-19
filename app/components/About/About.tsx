@@ -3,11 +3,11 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="w-screen h-screen mt-[50px]">
-      <h1 className="text-white text-[#FFFFFF] uppercase text-[24px] font-monument text-center mt-[10px]">
+    <section className="w-screen h-screen mt-[300px]">
+      <h1 className="text-white text-[#FFFFFF] uppercase text-[24px] font-monument text-center mt-[10px] sm:text-[38px]">
         Profiting Through
       </h1>
-      <h2 className="uppercase text-[16px] font-monument text-blue-500 mt-[5px] text-center">
+      <h2 className="uppercase text-[24px] font-monument text-blue-500 mt-[5px] text-center">
         AI Innovation & Decentralization
       </h2>
       <div className="items-center mx-[24px] mt-[60px] w-full">

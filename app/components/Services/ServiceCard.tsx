@@ -13,7 +13,7 @@ const ServiceCard = ({ title, subtitle, img, paragraph, state }: Props) => {
   return (
     <div className="text-white bg-[#13171D] w-full relative">
       <div className="absolute top-[-10px] right-[30px]">
-        <p className="uppercase text-black bg-white inline px-[5px] text-[10px] rounded-[10px]">
+        <p className="uppercase text-black bg-white inline px-[5px] text-[10px] rounded-[10px] sm:text-[12px]">
           {state}
         </p>
       </div>
