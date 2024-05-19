@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-black  h-screen w-scree font-satoshi">
+      <body className="bg-black w-scree font-satoshi">
         <ResponsiveNav />
         {children}
       </body>

@@ -5,10 +5,10 @@ import VisionListCard from "./VisionListCard";
 
 const Vision = () => {
   return (
-    <div className="ml-[240px] mt-[120px] mr-[240px]">
-      <div className="flex gap-[120px]">
-        <div className="max-w-[700px]">
-          <h3 className="text-white text-[34px] mb-[30px] leading-[40px] uppercase font-monument w-[700px] h-[322]">
+    <div className="ml-[24px] mt-[12px] mr-[24px] w-full">
+      <div className="">
+        <div className="">
+          <h3 className="text-white text-[20px] mb-[3px] leading-[35px] uppercase font-monument w-[80%]">
             Our vision is to <br /> support the innovation of AI blockchain
             <br />
             projects
@@ -16,16 +16,20 @@ const Vision = () => {
               while prioritizing communities and democratizing profits
             </span>
           </h3>
-          <Image src={VisionPageImage} alt="Vision Page Image" />
+          <Image
+            src={VisionPageImage}
+            alt="Vision Page Image"
+            className="py-[60px]"
+          />
         </div>
-        <div className="w-[552px] h-[804px] h-[804px]">
+        <div className="w-[90%]">
           <div className="">
             <VisionListCard
               img="/images/icon1.png"
               desc="Profitability and "
               descLine2="Growth"
             />
-            <p className="text-white ml-[100px] mt-[10px]">
+            <p className="text-white ml-[10px] mt-[10px] w-[90%]">
               At Creon, we handpick cutting-edge AI projects and offer our
               community and token holders early access and investment
               opportunities. Our community actively contributes to the growth

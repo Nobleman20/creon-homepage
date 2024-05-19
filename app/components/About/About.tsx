@@ -3,18 +3,18 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="h-screen w-screen mt-[120px]">
-      <h1 className="text-white text-[#FFFFFF] uppercase ml-[240px] text-[68px] font-monument">
+    <section className="w-screen h-screen mt-[50px]">
+      <h1 className="text-white text-[#FFFFFF] uppercase text-[24px] font-monument text-center mt-[10px]">
         Profiting Through
       </h1>
-      <h2 className="uppercase text-4xl text-right mr-[240px] text-[38px] font-monument text-blue-500 mt=[20px]">
+      <h2 className="uppercase text-[16px] font-monument text-blue-500 mt-[5px] text-center">
         AI Innovation & Decentralization
       </h2>
-      <div className="flex items-center ml-[240px] justify-center flex-cols-2 gap-[71px] mt-[60px] ml-[240px]">
-        <video className="w-[947px]" controls playsInline>
+      <div className="items-center mx-[24px] mt-[60px] w-full">
+        <video className="mb-[50px]" controls playsInline>
           <source src="/videos/creon-logo.mp4" type="video/mp4" />
         </video>
-        <div className="text-white mr-[240px]">
+        <div className="text-white mr-[24px] w-[80%]">
           <p>The dynamic community driven business model of the future.</p>
           <p className="mt-[20px]">
             At Creon, we blend the power of AI tools with the dynamic crypto and

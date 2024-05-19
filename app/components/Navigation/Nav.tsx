@@ -11,10 +11,10 @@ interface Props {
 
 const Nav = ({ openNav }: Props) => {
   return (
-    <nav className="absolute top-30 left-[50px] right-[50px] mt-[33px] flex items-center justify-between z-50 ml-[50px] font-satoshi">
-      <Image src={Logo} alt="Logo" />
-      <div className="flex items-center space-x-6">
-        <ul className="flex items-center space-x-6 text-[18px]">
+    <nav className="absolute top-30 left-[20px] right-[50px] mt-[33px] flex items-center justify-between z-50 ml-[4px] font-satoshi w-[90%]">
+      <Image src={Logo} alt="Logo" className="" />
+      <div className="flex items-center space-x-6 lg:text-[0.75rem]">
+        <ul className="flex items-center space-x-6 text-[18px] hidden">
           <li className="text-white hover:text-blue-500">Creon Pass</li>
           <NavMenuList menu="Token" status="soon" />
           <NavMenuList menu="AI Revenue" status="soon" />

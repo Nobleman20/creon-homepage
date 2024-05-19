@@ -3,7 +3,7 @@ import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <div className="flex items-center flex-cols-3 justify-center gap-[40px] ml-[240px] mr-[240px] mb-[165px]">
+    <div className="p-[20px]">
       <ServiceCard
         state="coming soon"
         title="Token"

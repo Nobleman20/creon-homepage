@@ -11,19 +11,19 @@ interface Props {
 
 const ServiceCard = ({ title, subtitle, img, paragraph, state }: Props) => {
   return (
-    <div className="text-white bg-[#13171D] w-[453px] h-[700px] relative">
+    <div className="text-white bg-[#13171D] w-full relative">
       <div className="absolute top-[-10px] right-[30px]">
-        <p className="uppercase text-black bg-white inline px-[5px] font-[12px] rounded-[10px]">
+        <p className="uppercase text-black bg-white inline px-[5px] text-[10px] rounded-[10px]">
           {state}
         </p>
       </div>
-      <h3 className="uppercase text-[38px] mb-[15px] font-monument ml-[30px] mt-[30px]">
+      <h3 className="uppercase text-[30px] mb-[15px] font-monument ml-[30px] mt-[80px]">
         {title}
       </h3>
-      <h6 className="text-blue-500 text-[22px] mb-[50px]  ml-[30px] mr-[30px]">
+      <h6 className="text-blue-500 text-[22px] mb-[50px]  ml-[30px] mr-[30px] w-[90%]">
         {subtitle}
       </h6>
-      <div className="h-[234px] w-[403px]  mb-[18px] relative overflow-hidden">
+      <div className=" w-[90%]  mb-[18px] relative overflow-hidden">
         <Image
           src={img}
           alt="service card"
