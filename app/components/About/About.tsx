@@ -12,7 +12,7 @@ const About = () => {
       </h2>
       <div className="items-center mx-[24px] mt-[60px] w-full lg:flex lg:gap-9">
         <video
-          className="mb-[50px] lg:w-[840px] lg:ml-[160px]"
+          className="mb-[50px] lg:w-[820px] lg:ml-[160px]"
           controls
           playsInline
         >
