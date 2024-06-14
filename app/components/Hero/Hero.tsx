@@ -17,11 +17,16 @@ const Hero = () => {
         </video>
       </div>
 
-      <div className="absolute bottom-0 left-0  text-white py-4 text-left">
-        <h1 className=" md:text-[50px] lg:text-[48px] font-monument uppercase ml-[24px] mb-[50px] sm:text-[38px] xl:leading-[75px] xl:text-[68px] lg:leading-[55px] md:leading-[35px] sm:leading-[40px] text-[25px] max-w-[65%] leading-[30px]">
-          The world&apos;s first
-          <br /> platform for Tokenizing
-          <br /> AI blockchain projects.
+      <div className="absolute bottom-0 left-0  text-white py-4 text-left lg:ml-[160px] lg:mr-[160px]">
+        <h1 className="md:text-[50px] lg:text-[px] font-monument uppercase ml-[24px] mb-[50px] sm:text-[38px] xl:leading-[75px] xl:text-[68px] lg:leading-[55px] md:leading-[35px] sm:leading-[40px] lg:mx-[30px] text-[25px] max-w-[65%] lg:max-w-[100%] leading-[30px]">
+          <span className="hidden lg:inline">
+            The world's first platform for Tokenizing AI blockchain projects.
+          </span>
+          <span className="block lg:hidden">
+            The world's first
+            <br /> platform for Tokenizing
+            <br /> AI blockchain projects.
+          </span>
         </h1>
         <div className="mb-[100px]">
           <p className="ml-[24px] text-blue-500 border-b-[1px] border-t-[1px]  border-blue-500 my-6 inline text-[22px] xl:text=[27px] md:text-[17px] sm:text-[18px] mt-[40px]">
