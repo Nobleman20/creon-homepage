@@ -5,10 +5,10 @@ import VisionListCard from "./VisionListCard";
 
 const Vision = () => {
   return (
-    <div className="ml-[24px] mt-[12px] mr-[24px] w-full">
-      <div className="">
+    <div className="ml-[24px] mt-[12px] mr-[24px] w-full lg:mt-[77px]">
+      <div className="lg:flex lg:mx-[160px] lg:justify-center">
         <div className="">
-          <h3 className="text-white text-[20px] mb-[3px] leading-[35px] uppercase font-monument w-[80%]">
+          <h3 className="text-white text-[20px] mb-[3px] leading-[35px] uppercase font-monument w-[80%] lg:text-[25px] lg:leading-[30px]">
             Our vision is to <br /> support the innovation of AI blockchain
             <br />
             projects
@@ -22,7 +22,7 @@ const Vision = () => {
             className="py-[60px]"
           />
         </div>
-        <div className="w-[90%]">
+        <div className="w-[90%] lg:mt-[-40px]">
           <div className="">
             <VisionListCard
               img="/images/icon1.png"

@@ -10,7 +10,7 @@ interface Props {
 const VisionListCard = ({ img, desc, descLine2 }: Props) => {
   return (
     <div className="flex items-center font-bold my-[30px]">
-      <Image src={img} alt="icon1" width={100} height={114} />
+      <Image src={img} alt="icon1" width={67} height={76} />
       <h6 className="text-white">
         {desc} <br />
         {descLine2}

@@ -11,16 +11,16 @@ interface Props {
 
 const ServiceCard = ({ title, subtitle, img, paragraph, state }: Props) => {
   return (
-    <div className="text-white bg-[#13171D] w-full relative">
+    <div className="text-white bg-[#13171D] w-full relative lg:w-[300px]">
       <div className="absolute top-[-10px] right-[30px]">
-        <p className="uppercase text-black bg-white inline px-[5px] text-[10px] rounded-[10px] sm:text-[12px]">
+        <p className="uppercase text-black bg-white inline px-[5px] text-[10px] lg:text-[9px] rounded-[10px] sm:text-[12px]">
           {state}
         </p>
       </div>
-      <h3 className="uppercase text-[30px] mb-[15px] font-monument ml-[30px] mt-[80px]">
+      <h3 className="uppercase lg:text-[25px] text-[30px] mb-[15px] font-monument ml-[30px] lg:mt-[30px] mt-[80px]">
         {title}
       </h3>
-      <h6 className="text-blue-500 text-[22px] mb-[50px]  ml-[30px] mr-[30px] w-[90%]">
+      <h6 className="text-blue-500 lg:text-[15px] text-[22px] mb-[50px]  ml-[30px] mr-[30px] w-[90%]">
         {subtitle}
       </h6>
       <div className=" w-[90%]  mb-[18px] relative overflow-hidden">
@@ -32,7 +32,9 @@ const ServiceCard = ({ title, subtitle, img, paragraph, state }: Props) => {
           className=" w-[full] h-[full] transform transition-transform duration-300 hover:scale-110"
         />
       </div>
-      <p className="text-[18px]  ml-[30px] mr-[30px]">{paragraph}</p>
+      <p className="text-[18px]  ml-[30px] mr-[30px] lg:text-[12px]">
+        {paragraph}
+      </p>
     </div>
   );
 };
